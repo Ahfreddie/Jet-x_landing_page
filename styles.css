@@ -1,0 +1,66 @@
+/* Reset default browser styling */
+*, 
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* custom properties */
+:root {
+  /* colors */
+  --primary-color1: #F9FAF8;
+  --primary-color2: #1F2937; 
+  --secondary-color1: #E5E7EB;
+  --secondary-color1: #3882F6;
+
+  /* font sizes */
+  --ft-size-xs: 12px;
+  --ft-size-sm: 16px;
+  --ft-size-base: 18px;
+  --ft-size-lg: 24px;
+  --ft-size-xl: 36px;
+  --ft-size-xxl: 48px;
+
+  /* Spacing */
+  --sp-xs: 0.75rem;
+  --sp-sm: 0.85rem;
+  --sp-base: 1rem;
+  --sp-lg: 2.5rem;
+  --sp-xl: 4rem;
+  --sp-xxl: 6rem;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Header section styling */
+
+header a {
+  text-decoration: none;
+}
+
+header {
+  background: var(--primary-color2);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: var(--primary-color1);
+  font-size: var(--ft-size-lg);
+}
+
+.main-nav ul{
+  list-style: none;
+  display: flex;
+}
+
+.nav-item a {
+  color: var(--secondary-color1);
+  font-size: var(--ft-size-base);
+}
