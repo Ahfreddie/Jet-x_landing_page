@@ -27,7 +27,7 @@
   --sp-xs: 0.75rem;
   --sp-sm: 0.85rem;
   --sp-base: 1rem;
-  --sp-lg: 2.5rem;
+  --sp-lg: 2rem;
   --sp-xl: 4rem;
   --sp-xxl: 6rem;
 }
@@ -48,16 +48,22 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  padding-inline: 15%;
+  padding-top: var(--sp-sm);
+  padding-bottom: var(--sp-xs);
 }
 
 .logo {
   color: var(--primary-color1);
   font-size: var(--ft-size-lg);
+  font-weight: 900;
 }
 
 .main-nav ul{
   list-style: none;
   display: flex;
+  gap: var(--sp-base);
 }
 
 .nav-item a {
