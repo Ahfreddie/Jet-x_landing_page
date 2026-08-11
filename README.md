@@ -45,6 +45,12 @@ A lot of the initial content is currently just placeholder content.
 
 ## What I have learned
 <!-- Lessons will be added here -->
+- It is more efficient to work section by section instead of try to work on a lot of things simultaneously
+- Working section by section makes it easy to spot errors.
+- Flexbox is way more powerful, even though in this project I didn't utilize it fully, I have learnt how wonderful it can used for layout without grid.
 
 ## Known Issues
 <!-- Any known issues will be added here -->
+- Not yet responsive
+- Using fixed figures that fit the required output(not ideal especialy for responsiveness)
+- some lines of code in CSS are repeated could be reduced later
