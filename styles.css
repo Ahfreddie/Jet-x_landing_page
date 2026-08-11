@@ -95,7 +95,7 @@ header {
 
 .secondary-txt {
   margin-bottom: var(--sp-sm);
-  padding-right: var(--sp-base);
+  padding-right: var(--sp-xl);
 }
 
 .btn {
