@@ -99,9 +99,9 @@ header {
 }
 
 .btn {
-  width: 120px;
+  width: 125px;
   height: 36px;
-  border-radius: 12px;
+  border-radius: 8px;
   border: none;
   cursor: pointer;
 }
@@ -115,7 +115,7 @@ header {
 .ph-container {
   background-color: #8e8f90;
   color: var(--primary-color1);
-  height: 230px;
+  height: 245px;
 
   display: flex;
   justify-content: center;
@@ -123,3 +123,45 @@ header {
 }
 
 /* Random Info section styling */
+.random-info {
+  background-color: var(--primary-color1);
+  padding-bottom: 115.2px;
+}
+
+.info-heading {
+  color: var(--primary-color2);
+  font-size: var(--ft-size-xl);
+  font-weight: 900;
+  text-align: center;
+  padding-block: var(--sp-lg);
+}
+
+.subtext-container {
+  padding-inline: 15%;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.item-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+
+  width: 145px;
+  
+}
+
+.item-img {
+  width: 145px;
+  height: 145px;
+  border: 4px solid var(--secondary-color2);
+  border-radius: 12px;
+}
+
+.subtext {
+  color: #737474;
+  text-align: center;
+  margin-top: var(--sp-xs);
+}
