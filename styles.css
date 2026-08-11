@@ -224,3 +224,17 @@ header {
 .cta {
   border: 2px solid var(--primary-color1);
 }
+
+/* footer styling */
+footer {
+  background-color: var(--primary-color2);
+  color: var(--secondary-color1);
+  padding-block: var(--sp-lg);
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--secondary-color1);
+  font-weight: 900;
+}
