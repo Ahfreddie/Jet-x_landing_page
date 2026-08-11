@@ -105,9 +105,6 @@ header {
   border-radius: 8px;
   border: none;
   cursor: pointer;
-}
-
-.cta1 {
   background-color: var(--secondary-color2);
   color: var(--primary-color1);
   font-size: var(--ft-size-sm);
@@ -192,4 +189,38 @@ header {
   font-size: var(--ft-size-base);
   font-weight: 900;
   padding-right: 2.8rem;
+}
+
+/* CTA section styling  */
+.cta-section {
+  height: 380px;
+  background-color: var(--primary-color1);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-container {
+  background-color: var(--secondary-color2);
+  width: 1026.5px;
+  height: 120px;
+  border-radius: 12px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: var(--sp-xxl);
+}
+
+.cta-heading {
+  color: var(--primary-color1);
+}
+
+.cta-txt {
+  color: var(--secondary-color1);
+}
+
+.cta {
+  border: 2px solid var(--primary-color1);
 }
