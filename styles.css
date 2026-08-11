@@ -1,5 +1,5 @@
 /* Reset default browser styling */
-*, 
+*,
 *::before,
 *::after {
   padding: 0;
@@ -10,10 +10,10 @@
 /* custom properties */
 :root {
   /* colors */
-  --primary-color1: #F9FAF8;
-  --primary-color2: #1F2937; 
-  --secondary-color1: #E5E7EB;
-  --secondary-color2: #3882F6;
+  --primary-color1: #f9faf8;
+  --primary-color2: #1f2937;
+  --secondary-color1: #e5e7eb;
+  --secondary-color2: #3882f6;
 
   /* font sizes */
   --ft-size-xs: 12px;
@@ -60,13 +60,14 @@ header {
   font-weight: 900;
 }
 
-.main-nav ul{
+.main-nav ul {
   list-style: none;
   display: flex;
   gap: var(--sp-base);
 }
 
-.nav-item a, .secondary-txt {
+.nav-item a,
+.secondary-txt {
   color: var(--secondary-color1);
   font-size: var(--ft-size-base);
 }
@@ -74,7 +75,6 @@ header {
 /* Hero section styling */
 .hero {
   background-color: var(--primary-color2);
-  width: 100vw;
   height: 600px;
   padding-inline: 15%;
 
@@ -83,7 +83,8 @@ header {
   align-items: center;
 }
 
-.text-container, .ph-container {
+.text-container,
+.ph-container {
   flex: 1;
 }
 
@@ -140,7 +141,6 @@ header {
   padding-inline: 15%;
   display: flex;
   justify-content: space-around;
-  
 }
 
 .item-container {
@@ -150,7 +150,6 @@ header {
   align-items: center;
 
   width: 145px;
-  
 }
 
 .item-img {
@@ -164,4 +163,33 @@ header {
   color: #737474;
   text-align: center;
   margin-top: var(--sp-xs);
+}
+
+/* Quote section styling */
+.quote-section {
+  background-color: var(--secondary-color1);
+  color: var(--primary-color2);
+
+  height: 430px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-container {
+  width: 780px;
+}
+
+.quote {
+  font-size: var(--ft-size-xl);
+  font-weight: 300;
+  font-style: italic;
+  text-align: left;
+}
+
+.quoter {
+  text-align: right;
+  font-size: var(--ft-size-base);
+  font-weight: 900;
+  padding-right: 2.8rem;
 }
