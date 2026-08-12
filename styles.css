@@ -74,7 +74,7 @@ header {
 
 /* Hero section styling */
 .hero {
-  background-color: var(--primary-color2);
+  /* background-color: var(--primary-color2); */
   height: 600px;
   padding-inline: 15%;
 
