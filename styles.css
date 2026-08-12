@@ -32,8 +32,14 @@
   --sp-xxl: 6rem;
 }
 
+html {
+  scrollbar-color: var(--primary-color2) var(--secondary-color2);
+  scrollbar-width: thin;
+}
+
 body {
   font-family: "Roboto", sans-serif;
+  
 }
 
 /* Header section styling */
@@ -41,6 +47,7 @@ body {
 header a {
   text-decoration: none;
 }
+
 
 header {
   background: var(--primary-color2);
@@ -58,6 +65,11 @@ header {
   color: var(--primary-color1);
   font-size: var(--ft-size-lg);
   font-weight: 900;
+  transition: transform 0.3s ease-in-out;
+}
+
+.logo:hover {
+  transform: scale(1.2);
 }
 
 .main-nav ul {
@@ -70,6 +82,32 @@ header {
 .secondary-txt {
   color: var(--secondary-color1);
   font-size: var(--ft-size-base);
+  position: relative;
+}
+
+.nav-item a {
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-item a:hover {
+  color: var(--secondary-color2);
+}
+
+.nav-item a::after {
+  content: " ";
+  width: 80%;
+  height: 2px;
+  background-color: var(--secondary-color1);
+  position: absolute;
+  top: 110%;
+  right: 10%;
+  margin-top: 3px;
+  transform: scale(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav-item a:hover::after {
+  transform: scale(1);
 }
 
 /* Hero section styling */
@@ -99,7 +137,7 @@ header {
   position: absolute;
   inset: 0;
   background-color: #1f2937;
-  opacity: 0.5;
+  opacity: 0.6;
   width: 100%;
   height: 100%;
   object-fit: cover;
