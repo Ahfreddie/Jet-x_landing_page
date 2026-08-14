@@ -210,14 +210,21 @@ header {
   flex-wrap: wrap;
   align-items: center;
 
-  width: 145px;
+  width: 200px;
 }
 
 .item-img {
-  width: 145px;
-  height: 145px;
-  border: 4px solid var(--secondary-color2);
+  width: 200px;
+  height: 200px;
+  /* border: 4px solid var(--secondary-color2); */
+  box-shadow: 5px 5px 12px var(--primary-color2);
   border-radius: 12px;
+}
+
+.item-img img {
+  object-fit: cover;
+  width: 100%;
+  border-radius: 8px;
 }
 
 .subtext {
