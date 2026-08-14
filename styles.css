@@ -64,7 +64,8 @@ header {
 .logo {
   color: var(--primary-color1);
   font-size: var(--ft-size-lg);
-  font-weight: 900;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -96,7 +97,8 @@ header {
 .nav-item a::after {
   content: " ";
   width: 80%;
-  height: 2px;
+  height: 2.5px;
+  border-radius: 18px;
   background-color: var(--secondary-color1);
   position: absolute;
   top: 110%;

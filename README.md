@@ -12,6 +12,7 @@ A lot of the initial content is currently just placeholder content.
 - Font: Roboto 
 - Dark background color (header, hero section and footer): #1F2937
 - Logo text:
+  - Font: Quicksand
   - Font size: 24px
   - Color: #F9FAF8
 - Hero section main text:
